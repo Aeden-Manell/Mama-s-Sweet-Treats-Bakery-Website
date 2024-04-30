@@ -1,0 +1,20 @@
+#headerDiv{
+    background-color: #832a1e;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+#aboutp{
+    font-family: "Platypi", serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+#abouth1{
+    font-family: "Varela Round", sans-serif;
+    color: #ebebca;
+    font-size: 43px;
+    line-height: 50px;
+}
