@@ -1,0 +1,41 @@
+.divhero{
+margin: 9px;
+
+}
+
+.herobg{
+    border-radius: 20px;
+    background-color: #ff9a9b;
+    padding: 10px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+#headingg{
+    margin-bottom: 30px;
+    font-family: "Platypi", serif;
+    color: #b62511;
+    font-size: 68px;
+    line-height: 65px;
+}
+
+#heropp{
+    font-family: "Varela Round", sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+
+#herbtnn{
+    font-family: "Varela Round", sans-serif;
+    background-color: #ff524f;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border: 2px solid #832a1e9c;
+}

@@ -1,0 +1,54 @@
+.heroBody{
+    margin-top: 50px;
+}
+
+#heroimg {
+padding-left: 130px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+#heading{
+    font-family: "Platypi", serif;
+    color: #832a1e;
+    font-size: 55px;
+    line-height: 65px;
+}
+
+#heropng {
+    border-right: #832a1e solid 10px;
+    border-bottom: #832a1e solid 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#heropng:hover {
+    border-right: #832a1e solid 10px;
+    border-bottom: #832a1e solid 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+#herbtn{
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid #832a1e;
+}
+
+#heroheader{
+    color: #ff716f;
+}
+  
+#herop{
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+    color: #f95c59;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+#navname{
+    font-family: "Varela Round", sans-serif;
+    font-size: 19px;
+    color: #832a1e;
+    background-color: #ebebca00;
+    padding: 5px 17px;
+    border-radius:170px;
+    margin: -18px;
+}
+
+#navname:hover {
+    background-color: #ebebca;
+}
+
+#navnameactive{
+    font-family: "Varela Round", sans-serif;
+    font-size: 19px;
+    color: #832a1e;
+    background-color: #ebebca;
+    padding: 5px 17px;
+    border-radius:170px;
+    margin: -18px;
+}
+
+#navnameactive:hover{
+    background-color: #ebebca00;
+}
+
+.navbar{
+    margin: 6px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Pacifico&display=swap');
+
+#Logo{
+    font-size: 32px;
+    font-family: "Pacifico", cursive;
+    line-height: 34px;
+    font-weight: 700;
+    width: 400px;
+    color: #832a1e;
+    letter-spacing: 2px;
+    
+    /* Mobile responsiveness */
+    width: 100%; /* Make the logo occupy 100% of its container width */
+    max-width: 400px; /* Set a maximum width of 400px */
+}
+
+/* Media query for mobile devices (screen width less than 768px) */
+@media screen and (max-width: 768px) {
+    #Logo {
+        max-width: 300px; /* Reduce the maximum width to 200px on mobile */
+    }
+}
+
+
+#nav{
+    border-radius: 30px;
+    background-color: #ffffff00;
+    color: #ffffff;
+}
+
+#left{
+background-color: #ffffff;
+border-radius: 30px;
+height: 55px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+}

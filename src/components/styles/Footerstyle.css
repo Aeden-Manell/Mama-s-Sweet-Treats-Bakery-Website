@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+.footerlink{
+    font-family: "Varela Round", sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#footerdiv{
+    margin: 7px;
+    border-radius: 20px;
+    border: 2px solid #832a1e;
+    padding: 30px;
+    background-color: #832a1e;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Pacifico&display=swap');
+
+
+#footerlogo {
+    font-size: 32px;
+    font-family: "Pacifico", cursive;
+    line-height: 34px;
+    font-weight: 600;
+    color: #ebebca;
+    letter-spacing: 3px;
+    
+    /* Mobile responsiveness */
+    width: 100%; /* Make the logo occupy 100% of its container width */
+    max-width: 400px; /* Set a maximum width of 400px */
+}
+
+/* Media query for mobile devices (screen width less than 768px) */
+@media screen and (max-width: 768px) {
+    #footerlogo {
+        max-width: 300px; /* Reduce the maximum width to 200px on mobile */
+    }
+}
+
+#footercopy{
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 20px;
+    color: rgb(255, 139, 158);
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#footersection{
+    margin-top: 50px;
+}

@@ -1,0 +1,124 @@
+#aboutctaDiv{
+    background-color: rgba(0, 255, 255, 0);
+    margin: 8px;
+
+}
+
+.bodycta1{
+    background-color: #ff524f;
+    border-radius: 20px;
+    border: #aa4543 3px solid;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+
+.bodyctaH1{
+    color: #ebebca;
+    font-family: "Platypi", serif;
+    padding-bottom: 10px;
+}
+
+.bodyctap{
+    margin-top: 10px;
+    color: #ebebca;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.btnReadmore{
+    background-color: #ebebca;
+    color: #ff524f;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #ff524f;
+}
+
+.btnReadmore:hover{
+    background-color: #ff524f;
+    color: #ebebca;
+    border: 2px solid #ffffff;
+}
+
+
+.bodycta2{
+    background-color: #cdf0ee;
+    border-radius: 20px;
+    border: #009ddf 3px solid;
+}
+
+.bodyctaH12{
+    color: #ff3b38;
+    font-family: "Platypi", serif;
+    padding-bottom: 10px;
+    font-size: 42px;
+}
+
+.bodyctap2{
+    margin-top: 10px;
+    color: #009ddf;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.btnReadmore2{
+    background-color: #009ddf;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #009ddf;
+}
+
+.btnReadmore2:hover{
+    background-color: #00aef9;
+    color: #ebebca;
+    border: 2px solid #ffffff;
+}
+
+
+
+
+
+
+.bodycta3{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: #ffc400 3px solid;
+}
+
+.bodyctaH13{
+    color: #ff3b38;
+    font-family: "Platypi", serif;
+    padding-bottom: 10px;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.bodyctap3{
+    margin-top: 10px;
+    color: #ffc400;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    font-family: "Varela Round", sans-serif;
+}
+
+.btnReadmore3{
+    background-color: #ffc400;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #ffc400;
+}
+
+.btnReadmore3:hover{
+    background-color: #ffc400;
+    color: #ebebca;
+    border: 2px solid #ffffff;
+}

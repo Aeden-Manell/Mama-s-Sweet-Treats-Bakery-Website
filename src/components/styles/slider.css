@@ -1,0 +1,90 @@
+
+.slider-container {
+    position: relative;
+    width: 320px;
+    margin: 50px auto 0 auto;
+    perspective: 1200px;
+    margin-bottom: 700px;
+    margin-top: 200px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+  }
+  
+  .imageslider {
+    border-radius: 30px;
+    position: absolute;
+    height: 200px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0);
+    display: flex;
+
+  }
+  
+
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(360deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  
+  .imageslider:nth-child(1) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/07/Lemon-Drizzle-Bundt-scaled-500x667.jpeg);
+    transform: rotateY(0deg) translateZ(450px);
+  }
+  .imageslider:nth-child(2) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/06/doughnuts-2-scaled-500x667.jpg);
+    transform: rotateY(40deg) translateZ(450px);
+  }
+  .imageslider:nth-child(3) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/06/lemon-meringue-_-peppermint-crisp-2-scaled-500x667.jpg);
+    transform: rotateY(80deg) translateZ(450px);
+  }
+  .imageslider:nth-child(4) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/07/banoffee-pie-scaled-500x667.jpeg);
+    transform: rotateY(120deg) translateZ(450px);
+  }
+  .imageslider:nth-child(5) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/06/vegan-bundt-scaled-500x667.jpg);
+    transform: rotateY(160deg) translateZ(450px);
+  }
+  .imageslider:nth-child(6) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/07/new-pecan-pie-pic-500x667.jpeg);
+    transform: rotateY(200deg) translateZ(450px);
+  }
+  .imageslider:nth-child(7) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/06/Carrot-cake-scaled-500x667.jpg);
+    transform: rotateY(240deg) translateZ(450px);
+  }
+  .imageslider:nth-child(8) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/06/apple-pie-2-scaled-500x667.jpg);
+    transform: rotateY(280deg) translateZ(450px);
+  }
+  .imageslider:nth-child(9) {
+    background-image: url(https://bunsbakery.co.za/wp-content/uploads/2022/07/Biscoff-cheesecake-scaled-500x667.jpeg);
+    transform: rotateY(320deg) translateZ(450px);
+  }
+
+  /* Media Queries */
+@media (max-width: 480px) {
+  .slider-container {
+    margin-bottom: 300px;
+    margin-top: 100px;
+  }
+
+  .imageslider {
+    height: 150px;
+  }
+}

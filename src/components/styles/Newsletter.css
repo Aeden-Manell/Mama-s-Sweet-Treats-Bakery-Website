@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+#mainNews{
+ background-color: #ff524f;
+ border-radius: 25px;
+ margin: 60px;
+}
+
+#HeadingNews{
+    font-family: "Varela Round", sans-serif;
+    color: #ebebca;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap');
+
+#SubHeadingNews{
+    font-family: "Platypi", serif;
+    font-size: 20px;
+}
+
+#BtnNews{
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 1px;
+    background-color: #832a1e;
+}
+
+#SubInput{
+    border: #aa4543 3px solid;
+    font-family: "Varela Round", sans-serif;
+    color: #ff524f;
+    background-color: #ebebca;
+}
